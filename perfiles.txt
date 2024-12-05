@@ -1,0 +1,3 @@
+María,https://i.pinimg.com/736x/06/d4/cd/06d4cd616a5827cbced2f1778dd7941d.jpg,Infantil,Abril 2023
+Alonso,https://hips.hearstapps.com/hmg-prod/images/principes-disney-10-1544699792.jpg,Comedia,Marzo 2022
+Felipe,https://pm1.aminoapps.com/7472/9fd8af1ad958439d8beaec958463cce07fba78f3r1-735-736v2_hq.jpg,Accion,Febrero 2021

@@ -1,0 +1,175 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to left, #ff69b4, #F48FB1,#ffe1ff); 
+    color: #fff;
+  }
+  
+  header {
+    background-color: #b10058;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 32px;
+  }
+  
+  nav {
+    background-color: #b10058;
+    padding: 10px 0; /* Ajuste aquí para reducir el padding superior e inferior */
+    display: flex;
+    justify-content: space-around; /* Alinea los elementos a lo largo del ancho de la barra de navegación */
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    margin: 0; /* Añade este estilo para eliminar márgenes */
+    box-sizing: border-box; /* Añade este estilo para incluir padding y border en el ancho total */
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    font-weight: bold; /* Agrega negrita */
+    text-transform: uppercase; /* Convierte a mayúsculas */
+  }
+  
+  nav a:hover {
+  color: #ff82cf; /* Cambia el color al pasar el mouse */
+  border-bottom: 2px solid #ff82cf; /* Agrega un borde inferior al pasar el mouse */
+  padding-bottom: 8px; /* Ajusta el espacio entre el texto y el borde inferior */
+  transition: color 0.3s, border-bottom 0.3s; /* Agrega transiciones suaves */
+  }
+  
+  .user-profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  #container {
+    max-width: 1200px;
+    margin: 80px auto 20px;
+    padding: 20px;
+  }
+  
+  .featured-movie {
+    position: relative;
+    width: 100%;
+    max-height: 400px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    cursor: pointer;
+    text-align: left;
+    background-color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .featured-movie img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .movie-info {
+    padding: 15px;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, transparent 0%, #b10058 100%);
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .movie-title {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .movie-details {
+    font-size: 14px;
+  }
+  
+  .featured-movie:hover {
+    transform: scale(1.05);
+  }
+  
+  .genre-container {
+    margin-bottom: 40px; /* Ajusta este valor según tu preferencia */
+  }
+  
+  .genre-title {
+    color: black;    /* Cambia el color del texto a negro */
+    font-weight: bold; /* Pone el texto en negrita */
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .movie-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .small-movie {
+    flex: 0 0 calc(30% - 20px);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px #bb6992;
+    transition: transform 0.3s;
+    cursor: pointer;
+    text-align: left;
+    background-color: #b10058;
+    margin-bottom: 20px;
+    margin-right: 40px; /* Agrega un margen derecho de 20px entre las películas */
+  }
+  
+  .small-movie:hover {
+    transform: scale(1.05);
+  }
+  
+  .small-movie img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .small-movie-info {
+    padding: 15px;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, transparent 0%, #bb6992 100%);
+    color: #fff;
+  }
+  
+  .small-movie-title {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .small-movie-details {
+    font-size: 14px;
+  }
+  
+  nav img{
+    width:50px;
+  }
+  .logo {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto; 
+  }
+  
